@@ -1,6 +1,6 @@
 # twiddles  • [![tests](https://github.com/abigger87/twiddles/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/twiddles/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/twiddles/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/twiddles/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/twiddles) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/twiddles)
 
-A Collection of Breakage and Twiddles.
+A Collection of Breakage, Twiddles, and Odd Bitmagic.
 
 ## Blueprint
 
