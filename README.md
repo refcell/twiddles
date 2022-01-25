@@ -1,6 +1,6 @@
-# foundry-starter  • [![tests](https://github.com/abigger87/foundry-starter/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/foundry-starter/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/foundry-starter/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/foundry-starter/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/foundry-starter) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/foundry-starter)
+# twiddles  • [![tests](https://github.com/abigger87/twiddles/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/twiddles/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/twiddles/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/twiddles/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/twiddles) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/twiddles)
 
-Backwards Compatible Template for Foundry and DappTools Projects 
+A Collection of Breakage and Twiddles.
 
 ## Blueprint
 
@@ -12,13 +12,12 @@ lib
 ├─ clones-with-immutable-args — https://github.com/wighawag/clones-with-immutable-args
 src
 ├─ tests
-│  └─ Greeter.t — "Greeter Tests"
-└─ Greeter — "A Minimal Greeter Contract"
+│  └─ InlineEvents.t — "Inline Event Tests"
+└─ InlineEvents — "Inline assignment in events"
 ```
 
-## Development
+## Configuration
 
-[foundry-starter](https://github.com/abigger87/foundry-starter) is intended to be minimal while also providing backwards compatibility. Thus, both [DappTools](https://dapp.tools/) and [Foundry](https://github.com/gaskonst/foundry) are supported. Installation instructions for both are included below.
 #### Install DappTools
 
 Install DappTools using their [installation guide](https://github.com/dapphub/dapptools#installation).
@@ -75,7 +74,7 @@ Using [foundry.toml](./foundry.toml), Foundry is easily configurable.
 
 ## License
 
-[AGPL-3.0-only](https://github.com/abigger87/foundry-starter/blob/master/LICENSE)
+[AGPL-3.0-only](https://github.com/abigger87/twiddles/blob/master/LICENSE)
 
 # Acknowledgements
 
