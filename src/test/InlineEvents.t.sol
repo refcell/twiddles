@@ -3,17 +3,18 @@ pragma solidity 0.8.11;
 
 import {DSTestPlus} from "./utils/DSTestPlus.sol";
 
-import {Greeter} from "../Greeter.sol";
+import {InlineEvents} from "../InlineEvents.sol";
 
-contract GreeterTest is DSTestPlus {
-    Greeter greeter;
+contract InlineEventsTest is DSTestPlus {
+    InlineEvents ievents;
 
     function setUp() public {
-        greeter = new Greeter("gm");
+        ievents = new InlineEvents();
     }
 
-    function testSetGm() public {
-        greeter.setGm("gm gm");
-        greeter.gm("gm gm");
+    function testInlineAssignment() public {
+        assert(ievents.one() == 1);
+        ievents.setInline();
+        assert(ievents.one() == 0);
     }
 }
